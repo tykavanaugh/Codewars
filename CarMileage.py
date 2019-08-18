@@ -1,5 +1,6 @@
 #https://www.codewars.com/kata/52c4dd683bfd3b434c000292/train/python
-
+import numpy
+import pandas
 def is_interesting(num, awesome_phrases):
     if len(str(num)) < 3:
         return 0
